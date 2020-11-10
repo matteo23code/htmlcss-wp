@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+background: url("../img/sfondo.png");
+}
+
+.contain{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.title{
+  background: white;
+  height: 100%;
+  padding: 20px;
+}
+
+.image-title{
+  background: url("../img/foresta.png");
+  background-size: cover;
+  height: 300px;
+}
+
+.logo-title{
+  background: url("../img/logo.png");
+  background-size: contain;
+  width: 60%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+li{
+  text-align: center;
+  display: inline;
+  width: 100%;
+  margin: 20px;
+  vertical-align: text-bottom;
+}
+
+.navbar{
+  padding-top: 25px;
+  background: grey;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.left-box{
+  background: #fff;
+  width: 25%;
+  height: 400px;
+  float:left;
+  margin: 10px 0px 0px;
+}
+.center-box{
+  background: #fff;
+  width:calc(40% - 0px);
+  height: 400px;
+  float: left;
+  margin: 10px 90px 0px;
+}
+
+.right-box{
+  width: 20%;
+  height: 1000px;
+  float: left;
+  margin: 10px 0px ;
+}
+
+.box:first-child{
+  margin: 0px 0px 10px;
+}
+
+.box:nth-child(2){
+  background: #fff;
+  height: 300px;
+  margin: 10px 0px;
+}
+
+.box{
+  background: #fff;
+  height: 300px;
+}
+
+.azure-box{
+  background: #fff;
+  height: 100px;
+
+}
